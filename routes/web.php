@@ -67,7 +67,7 @@ Route::get('/blogs', [HomeController::class, 'blogs'])->name('blogs');
 Route::get('/blog/{slug}', [HomeController::class, 'show'])->name('blog.details');
 Route::get('/category/{slug}', [HomeController::class, 'category'])->name('blog.category');
 
-Route::get('/{slug}', [HomeController::class, 'pages'])->name('page.details');
+
 
 
 /*
@@ -117,6 +117,8 @@ Route::middleware('auth')->group(function () {
 })->name('cache.clear')->middleware('auth');
 
 });
+
+Route::get('/{slug}', [HomeController::class, 'pages'])->name('page.details');
 
 require __DIR__ . '/auth.php';
 

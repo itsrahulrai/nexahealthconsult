@@ -68,7 +68,7 @@
 
         <!-- Submit -->
         <div class="d-flex align-items-center gap-3">
-            <button type="submit" class="btn" style="background-color:#ee3638; color:#fff;">
+            <button type="submit" class="btn" style="background-color:#1276B7; color:#fff;">
                 {{ __('Save') }}
             </button>
 
