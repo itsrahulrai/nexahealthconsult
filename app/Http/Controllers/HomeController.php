@@ -126,9 +126,9 @@ class HomeController extends Controller
         Mail::send([], [], function ($mail) use ($data, $html)
         {
 
-            $mail->to('codersvox@gmail.com')
+            $mail->to('drsanjeevkalra11@icloud.com')
                 ->subject('New  Enquiry - ' . $data['name'])
-                ->from('codersvox@gmail.com', 'Nexa Health Consult')
+                ->from('drsanjeevkalra11@icloud.com', 'Nexa Health Consult')
                 ->html($html);
         });
 
