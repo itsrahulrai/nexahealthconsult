@@ -9,21 +9,20 @@
 @push('style')
     <style>
         body {
-            background: #f6f8fc;
+            background: #ffffff;
         }
 
         /* MAIN CARD */
         .blog-card {
-            background: #fff;
-            border-radius: 16px;
-            padding: 25px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
-            transition: 0.3s;
+            background: transparent;
+            border-radius: 0;
+            padding: 0;
+            box-shadow: none;
         }
 
         .blog-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+            transform: none;
+            box-shadow: none;
         }
 
         /* IMAGE */
@@ -62,6 +61,23 @@
             color: #444;
             text-align: justify;
         }
+
+        .our-blog {
+            padding-top: 15px !important;
+            margin-top: 0 !important;
+        }
+
+        .page-header {
+            margin-bottom: 30px;
+            /* reduce gap below header */
+        }
+
+        .blog-image img {
+            max-width: 700px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
     </style>
 @endpush
 
@@ -95,7 +111,7 @@
 
     <!-- Our Blog Section Start -->
     <div class="our-blog">
-        <div class="our-blog py-5" style="background:#f5f7fb;">
+        <div class="our-blog" style="background:#f5f7fb;">
             <div class="container">
                 <div class="row">
 
@@ -105,8 +121,9 @@
                         <div class="blog-card p-4">
 
                             <!-- Image -->
-                            <div class="blog-image mb-4">
-                                <img src="{{ static_asset($page->image) }}" alt="{{ $page->name }}">
+                            <div class="blog-image text-center mb-5">
+                                <img src="{{ static_asset($page->image) }}" alt="{{ $page->name }}"
+                                    class="img-fluid rounded shadow-sm mx-auto d-block" style="max-width: 700px;">
                             </div>
                             <!-- Title -->
                             <h1 class="blog-title mb-3">{{ $page->name }}</h1>

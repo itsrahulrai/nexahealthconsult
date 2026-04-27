@@ -69,7 +69,6 @@ Route::get('/category/{slug}', [HomeController::class, 'category'])->name('blog.
 
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Frontend  Route Ends
@@ -99,7 +98,7 @@ Route::middleware('auth')->group(function () {
         Route::resource('blogs', BlogController::class);
          Route::resource('gallery', \App\Http\Controllers\Admin\GalleryController::class);
          Route::resource('teams', \App\Http\Controllers\Admin\TeamsController::class);
-         Route::resource('testimonials', \App\Http\Controllers\Admin\TestimonialController::class);
+         Route::resource('testimonials',\App\Http\Controllers\Admin\TestimonialController::class);
          Route::resource('pages', \App\Http\Controllers\Admin\PageController::class);
     });
     Route::prefix('dashboard')->name('admin.')->group(function () {

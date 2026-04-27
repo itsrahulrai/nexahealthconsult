@@ -3,105 +3,6 @@
 @section('meta-title', $blog->meta_title)
 @section('keywords', $blog->meta_keywords)
 @section('meta-description', $blog->meta_description)
-{{-- @push('style')
-    <style>
-        .blog-card {
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-        }
-
-        .blog-title {
-            font-weight: 700;
-        }
-
-        .blog-meta {
-            color: #777;
-            font-size: 14px;
-        }
-
-        .blog-content p {
-            line-height: 1.8;
-            margin-bottom: 15px;
-        }
-
-        /* TAGS */
-        .tag-badge {
-            display: inline-block;
-            background: #007bff;
-            color: #fff;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            margin-right: 5px;
-        }
-
-        /* SIDEBAR */
-        .sidebar-card {
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-        }
-
-        .sidebar-title {
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        /* RECENT POSTS */
-        .recent-post-item {
-            margin-bottom: 15px;
-        }
-
-        .recent-img {
-            width: 70px;
-            height: 70px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-right: 10px;
-        }
-
-        .recent-title {
-            font-weight: 500;
-            display: block;
-            color: #333;
-        }
-
-        .recent-title:hover {
-            color: #007bff;
-        }
-
-        .recent-date {
-            font-size: 12px;
-            color: #888;
-        }
-
-        /* CATEGORY */
-        .category-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .category-list li {
-            margin-bottom: 10px;
-        }
-
-        .category-list a {
-            display: flex;
-            justify-content: space-between;
-            color: #333;
-            text-decoration: none;
-            padding: 8px 0;
-        }
-
-        .category-list a:hover {
-            color: #007bff;
-        }
-    </style>
-@endpush --}}
-
-
 @push('style')
     <style>
         body {
@@ -156,6 +57,7 @@
             font-size: 16px;
             line-height: 1.9;
             color: #444;
+            text-align: justify;
         }
 
         /* TAGS */
