@@ -57,8 +57,8 @@ setup consultant, clinic business setup, healthcare startup consulting, clinic p
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Clinic Business
-                            Setup – <span>Nexa Health Consult</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Clinic Business
+                            Setup – <span>Nexa Health Consult</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health
                             Consult provides expert Clinic Business Setup consulting services for healthcare
                             entrepreneurs, doctors, and investors planning to establish successful medical clinics. With

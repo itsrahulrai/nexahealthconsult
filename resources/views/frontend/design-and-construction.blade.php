@@ -47,7 +47,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Facility Design</h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Facility Design</div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">At Nexa Health Consult, we deliver modern healthcare facility designs that combine aesthetic appeal, functionality, and operational efficiency. Our approach integrates global healthcare design standards with industry insights to create spaces that enhance patient experience, improve staff productivity, and support long-term operational success.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">We focus on designing patient-friendly environments, efficient workflows, and scalable healthcare infrastructure that help healthcare organizations operate smoothly while maximizing return on investment.</p>
 

@@ -47,7 +47,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Strategic Healthcare  <span>Consultancy</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Strategic Healthcare  <span>Consultancy</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare is more than a business—it is a commitment to human well-being. At Nexa, we help healthcare organizations build systems that inspire trust, deliver excellence, and sustain long-term growth. Headquartered in Noida, India, with a global presence in Fairfield, Iowa (USA), we bring a truly international perspective to healthcare consulting.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Led by Pooja Kalra, a visionary entrepreneur, and Dr. Sanjeev Kalra, a distinguished authority in Ayurvedic Neuro-Psychiatry and healthcare leadership, our team carries over 19 years of hands-on experience across clinical practice, academic institutions, and strategic advisory roles.</p>
 

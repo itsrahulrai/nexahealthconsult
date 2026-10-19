@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="contact-info-item-content">
                                     <p>Location:</p>
-                                    <h3>C-462, Sector-19, Noida, India</h3>
+                                    <h3>C-462, opp. C Block, C Block, Mkt, Sector 19, Noida, Uttar Pradesh 201301</h3>
                                 </div>
                             </div>
                             <!-- Contact Info Item End -->
@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="contact-info-item-content">
                                     <p>E-mail Address:</p>
-                                    <h3><a href="mailto:drsanjeevkalra11@icloud.com">drsanjeevkalra11@icloud.com</a></h3>
+                                    <h3><a href="mailto:drsanjeevkakra11@icloud.com">drsanjeevkakra11@icloud.com</a></h3>
                                 </div>
                             </div>
                             <!-- Contact Info Item End -->
@@ -84,8 +84,8 @@
                         <!-- Call Support Box Start -->
                         <div class="call-support-box wow fadeInUp" data-wow-delay="0.8s">
                             <p>Call Support 24/7:</p>
-                            <h3><a href="tel:9811733441">+91 98117 33441</a>, <a href="tel:+16412031111"> USA
-                                    +16412031111</a></h3>
+                            <h3><a href="tel:9811733441">+91 98117 33441</a>, USA
+                                     <a href="tel:+1-641-206-1111"> +1-641-206-1111</a></h3>
                         </div>
                         <!-- Call Support Box End -->
                     </div>
@@ -173,10 +173,7 @@
                 <div class="col-lg-12">
                     <!-- Google Map Start -->
                     <div class="google-map-iframe wow fadeInUp" data-wow-delay="0.6s">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14014.839157862496!2d77.30609891978035!3d28.578476095347593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce451af8dfa65%3A0xdb0cafb4b06c1fb!2sSector%2019%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1773226266641!5m2!1sen!2sin"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.7050125078954!2d77.3266515!3d28.578619500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5ccef52b631%3A0x91d9cf3ae3f21d2e!2sNexa%20Health%20Consult!5e0!3m2!1sen!2sin!4v1784625400628!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                     <!-- Google Map End -->
                 </div>

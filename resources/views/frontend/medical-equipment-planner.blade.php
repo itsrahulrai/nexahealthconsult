@@ -52,8 +52,8 @@
 
                         <!-- Service Entry Start -->
                         <div class="service-entry">
-                            <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Medical
-                                Equipment Planning & Hospital Equipment Consultancy</h2>
+                            <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Medical
+                                Equipment Planning & Hospital Equipment Consultancy</div>
                             <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health
                                 Consult offers specialized Medical Equipment Planning and Hospital Equipment Consultancy
                                 services designed to support hospitals, clinics, and diagnostic centers in developing

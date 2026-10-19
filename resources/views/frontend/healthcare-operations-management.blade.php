@@ -47,7 +47,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Operations Management – Nexa Health Consult</h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Operations Management – Nexa Health Consult</div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health Consult provides specialized Healthcare Operations Management consulting services designed to help hospitals, clinics, and healthcare organizations improve operational efficiency, enhance patient care quality, and achieve sustainable performance.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Healthcare operations involve complex coordination between clinical services, workforce management, hospital infrastructure, medical technology, and regulatory compliance. Our healthcare consultants work closely with hospital leadership and management teams to optimize daily operations while aligning them with long-term healthcare growth strategies.</p>
 

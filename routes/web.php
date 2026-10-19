@@ -54,6 +54,11 @@ Route::view('/healthcare-investment-consulting', 'frontend.healthcare-investment
 Route::view('/healthcare-performance-management', 'frontend.healthcare-performance-management')->name('healthcare-performance-management');
 Route::view('/hospital-business-setup', 'frontend.hospital-business-setup')->name('hospital-business-setup');
 Route::view('/clinic-setup', 'frontend.clinic-setup')->name('clinic-setup');
+Route::view('/raghav-gupta', 'frontend.raghav-gupta')->name('raghav-gupta');
+Route::view('/shubham-garg', 'frontend.shubham-garg')->name('shubham-garg');
+Route::view('/nitya-ahuja', 'frontend.nitya-ahuja')->name('nitya-ahuja');
+Route::view('/dr-t-j-hemnani', 'frontend.dr-t-j-hemnani')->name('dr-t-j-hemnani');
+Route::view('/sujeet-katiyar', 'frontend.sujeet-katiyar')->name('sujeet-katiyar');
 Route::view('/contact-us', 'frontend.contact-us')->name('contact-us');
 
 Route::post('/contact-submit', [HomeController::class, 'contactSubmit'])->name('contact.submit');
@@ -66,6 +71,7 @@ Route::post('/gallery', [HomeController::class, 'Gallery'])->name('gallery');
 Route::get('/blogs', [HomeController::class, 'blogs'])->name('blogs');
 Route::get('/blog/{slug}', [HomeController::class, 'show'])->name('blog.details');
 Route::get('/category/{slug}', [HomeController::class, 'category'])->name('blog.category');
+Route::get('/sitemap.xml', [HomeController::class, 'sitemap'])->name('sitemap');
 
 
 

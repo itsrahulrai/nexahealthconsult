@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
@@ -12,8 +13,34 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::with('category')->latest()->take(4)->get();
+        $blogs = Blog::with('category')->latest()->take(3)->get();
         return view('frontend.index', compact('blogs'));
+    }
+
+    public function sitemap()
+    {
+        $static = ['', 'about-us', 'team', 'projects', 'our-story', 'contact-us', 'blogs', 'gallery',
+            'strategic-healthcare-consultancy', 'market-feasibility', 'financial-feasibility',
+            'design-and-construction', 'project-management', 'medical-equipment-planner',
+            'healthcare-operations-management', 'healthcare-investment-consulting',
+            'healthcare-performance-management', 'hospital-business-setup', 'clinic-setup',
+            'raghav-gupta', 'shubham-garg', 'nitya-ahuja', 'dr-t-j-hemnani'];
+
+        $urls = [];
+        foreach ($static as $path) {
+            $urls[] = ['loc' => url($path), 'lastmod' => null, 'priority' => $path === '' ? '1.0' : '0.8'];
+        }
+        foreach (Page::select('slug', 'updated_at')->get() as $page) {
+            $urls[] = ['loc' => url($page->slug), 'lastmod' => optional($page->updated_at)->toAtomString(), 'priority' => '0.9'];
+        }
+        foreach (Category::select('slug', 'updated_at')->get() as $cat) {
+            $urls[] = ['loc' => route('blog.category', $cat->slug), 'lastmod' => optional($cat->updated_at)->toAtomString(), 'priority' => '0.5'];
+        }
+        foreach (Blog::select('slug', 'updated_at')->latest()->get() as $blog) {
+            $urls[] = ['loc' => route('blog.details', $blog->slug), 'lastmod' => optional($blog->updated_at)->toAtomString(), 'priority' => '0.7'];
+        }
+
+        return response()->view('sitemap', compact('urls'))->header('Content-Type', 'application/xml');
     }
 
     public function pages($slug)
@@ -22,13 +49,15 @@ class HomeController extends Controller
         // dd($page);
         return view('frontend.pages', compact('page'));
     }
- 
+
 
     public function blogs()
     {
         $blogs = Blog::with('category')->latest()->paginate(9);
         return view('frontend.blogs', compact('blogs'));
     }
+
+
 
     public function show($slug)
     {
@@ -123,9 +152,9 @@ class HomeController extends Controller
         </div>';
 
         // send mail
-        Mail::send([], [], function ($mail) use ($data, $html)
-        {
+        Mail::send([], [], function ($mail) use ($data, $html) {
 
+            // $mail->to('codersvox@gmail.com')
             $mail->to('drsanjeevkalra11@icloud.com')
                 ->subject('New  Enquiry - ' . $data['name'])
                 ->from('drsanjeevkalra11@icloud.com', 'Nexa Health Consult')
@@ -134,7 +163,4 @@ class HomeController extends Controller
 
         return redirect()->route('thankyou');
     }
-
-  
-
 }

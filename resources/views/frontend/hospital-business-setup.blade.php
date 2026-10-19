@@ -47,7 +47,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Hospital Business Setup – <span>Nexa Health Consult</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Hospital Business Setup – <span>Nexa Health Consult</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health Consult provides comprehensive Hospital Business Setup consulting services to support healthcare investors, hospital promoters, and healthcare organizations in establishing successful hospitals and medical facilities. With the increasing demand for high-quality healthcare services and strong growth potential in the healthcare sector, hospital development has become a highly attractive investment opportunity.</p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Our expert consultants guide clients through every stage of the hospital setup process—from strategic planning and regulatory approvals to facility development and operational readiness. Nexa Health Consult ensures that healthcare facilities are developed with strong clinical foundations, regulatory compliance, operational efficiency, and long-term sustainability.</p>

@@ -48,7 +48,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Investment Consulting – <span>Nexa Health Consult</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Investment Consulting – <span>Nexa Health Consult</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health Consult offers specialized Healthcare Investment Consulting services designed to help investors, healthcare entrepreneurs, hospital promoters, and healthcare organizations make informed and strategic investment decisions in the rapidly evolving healthcare sector. Our team combines healthcare industry expertise, market intelligence, and financial analysis to guide clients in identifying profitable opportunities while minimizing risks and ensuring long-term sustainability.</p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Healthcare investments require a deep understanding of clinical service models, operational workflows, regulatory frameworks, and financial performance. At Nexa Health Consult, we provide comprehensive advisory support that aligns investment strategies with healthcare demand, patient care models, and operational efficiency.</p>

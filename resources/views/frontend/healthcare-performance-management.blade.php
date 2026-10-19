@@ -53,8 +53,8 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare
-                            Performance Management – <span>Nexa Health Consult</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare
+                            Performance Management – <span>Nexa Health Consult</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health
                             Consult offers specialized Healthcare Investment Consulting services designed to help
                             investors, healthcare entrepreneurs, hospital promoters, and healthcare organizations make

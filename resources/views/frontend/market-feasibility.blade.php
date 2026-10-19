@@ -47,7 +47,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Market Feasibility of <span>Nexa Health</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Market Feasibility of <span>Nexa Health</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare is more than a service—it is a commitment to improving lives. At Nexa Health Consult, we help healthcare organizations develop strong foundations that enhance patient care, improve operational efficiency, and drive long-term growth.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">With deep industry knowledge and strategic expertise, our team supports hospitals, clinics, and healthcare entrepreneurs in building sustainable and high-performing healthcare systems. We combine practical experience with modern healthcare strategies to help organizations navigate challenges and achieve measurable success.</p>
 

@@ -47,7 +47,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Project Management Consultants</h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Healthcare Project Management Consultants</div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexa Health Consult provides expert healthcare project management consulting for hospitals, clinics, diagnostic centers, and specialty healthcare facilities. Our team supports healthcare organizations at every stage of project development, from feasibility studies and strategic planning to design coordination, construction oversight, and final commissioning. As experienced healthcare project management consultants, we ensure that every project is executed efficiently, meets regulatory compliance, and aligns with international healthcare standards.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">We focus on optimizing project timelines, controlling costs, and ensuring seamless coordination between architects, engineers, medical planners, and contractors. With deep industry expertise and a strategic approach, Nexa Health Consult helps healthcare providers develop modern, efficient, and patient-centric medical facilities that are ready for future healthcare demands.</p>
 

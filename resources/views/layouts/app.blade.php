@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-  <title>@yield('title', config('app.name', 'Frontline Logistics'))</title>
+    <title>@yield('title', config('app.name', 'Frontline Logistics'))</title>
 
+    <!-- Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> -->
 
-
-<!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net" />
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+<link href="https://fonts.bunny.net/css?family=poppins:300,400,500,600,700&display=swap" rel="stylesheet" />
 
     <link rel="icon" href="{{ static_asset('front-assets/assets/img/home1/favicon.png') }}" type="image/gif"
         sizes="20x20" />
@@ -31,7 +32,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
 
     <!-- Bootstrap Icons CDN -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
 
 </head>
@@ -42,11 +43,11 @@
 
         <!-- Page Heading -->
         @if (isset($header))
-            <header class="bg-white shadow-sm py-3 mb-4">
-                <div class="container">
-                    {{ $header }}
-                </div>
-            </header>
+        <header class="bg-white shadow-sm py-3 mb-4">
+            <div class="container">
+                {{ $header }}
+            </div>
+        </header>
         @endif
 
         <!-- Page Content -->
@@ -90,12 +91,12 @@
 
     <!-- Show Toastr Message -->
     <script>
-        @if (session('success'))
-            toastr.success("{{ session('success') }}");
+        @if(session('success'))
+        toastr.success("{{ session('success') }}");
         @endif
 
-        @if (session('error'))
-            toastr.error("{{ session('error') }}");
+        @if(session('error'))
+        toastr.error("{{ session('error') }}");
         @endif
     </script>
 
@@ -120,26 +121,30 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-                    let nameInput = document.getElementById('name');
-                    let slugInput = document.getElementById('slug');
 
-                    nameInput.addEventListener('keyup', function() {
+            let nameInput = document.getElementById('name');
+            let slugInput = document.getElementById('slug');
 
-                            if (!slugInput.dataset.edited) {
-                                slugInput.value = this.value
-                                    .toLowerCase()
-                                    .replace(/[^a-z0-9\s-]/g, '')
-                                    .trim()
-                                    .replace(/\s+/g, '-');
-                            }); slugInput.addEventListener('input', function() {
-                            this.dataset.edited = true;
-                        });
-                    });
+            nameInput.addEventListener('keyup', function() {
+
+                if (!slugInput.dataset.edited) {
+
+                    slugInput.value = this.value
+                        .toLowerCase()
+                        .replace(/[^a-z0-9\s-]/g, '')
+                        .trim()
+                        .replace(/\s+/g, '-');
+
+                }
+
+            });
+
+            slugInput.addEventListener('input', function() {
+                this.dataset.edited = true;
+            });
+
+        });
     </script>
-
-
-
-
 
 </body>
 

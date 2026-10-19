@@ -12,7 +12,6 @@
         /* MAIN CARD */
         .blog-card {
             background: #fff;
-            border-radius: 16px;
             padding: 25px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
             transition: 0.3s;
@@ -25,7 +24,6 @@
 
         /* IMAGE */
         .blog-image img {
-            border-radius: 12px;
             width: 100%;
             height: auto;
         }
@@ -80,7 +78,6 @@
         /* SIDEBAR */
         .sidebar-card {
             background: #fff;
-            border-radius: 16px;
             padding: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
         }
@@ -108,7 +105,6 @@
         .recent-img {
             width: 65px;
             height: 65px;
-            border-radius: 10px;
             object-fit: cover;
         }
 
@@ -166,8 +162,7 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="wow fadeInUp" data-cursor="-opaque" style="visibility: visible; animation-name: fadeInUp;">
-                            Our <span>Blog</span></h1>
+                        <h1 class="wow fadeInUp" data-cursor="-opaque" style="visibility: visible; animation-name: fadeInUp;">{{ $blog->title }}</h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.2s"
                             style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                             <ol class="breadcrumb">
@@ -200,7 +195,6 @@
                                 <img src="{{ static_asset($blog->image) }}" alt="{{ $blog->title }}">
                             </div>
                             <!-- Title -->
-                            <h2 class="blog-title mb-3">{{ $blog->title }}</h2>
 
                             <!-- Meta -->
                             <div class="blog-meta mb-3">

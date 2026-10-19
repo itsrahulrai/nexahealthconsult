@@ -50,7 +50,7 @@
 
                     <!-- Service Entry Start -->
                     <div class="service-entry">
-                        <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Financial <span>Feasibility</span></h2>
+                        <div class="service-title" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Financial <span>Feasibility</span></div>
                         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">At Nexa Health Consult, we provide comprehensive Healthcare Financial Feasibility services to support informed investment decisions and long-term healthcare project success. Our approach begins with understanding your vision, business goals, and market dynamics to ensure that your healthcare project is financially sustainable and strategically positioned for growth.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">We support hospitals, clinics, diagnostic centers, and specialized healthcare facilities by developing accurate, data-driven financial models that help minimize risk and maximize return on investment.</p>
 

@@ -51,8 +51,8 @@
                 </div>
             </div>
             <div class="sidebar-cta-contact-info">
-                <a href="tel:+9811733441" class="btn-default"><img
-                        src="{{ static_asset('assets/images/icon-phone-white.svg') }}" alt=""> +9811733441</a>
+                <a href="tel:+919811733441" class="btn-default"><img
+                        src="{{ static_asset('assets/images/icon-phone-white.svg') }}" alt=""> +91 9811733441</a>
             </div>
         </div>
     </div>
