@@ -3112,7 +3112,8 @@ header.main-header .header-sticky.active {
 	z-index: 2;
 }
 
-.page-header-box h1 {
+.page-header-box h1,
+.page-header-box h2 {
 	display: inline-block;
 	font-size: 64px;
 	font-weight: 500;
@@ -3122,7 +3123,8 @@ header.main-header .header-sticky.active {
 	cursor: none;
 }
 
-.page-header-box h1 span {
+.page-header-box h1 span,
+.page-header-box h2 span {
 	font-family: var(--accent-font);
 	font-weight: 400;
 }
@@ -3821,19 +3823,17 @@ header.main-header .header-sticky.active {
 
 .service-entry h2 {
 	font-size: 48px;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: -0.01em;
 	margin-bottom: 20px;
+	color: #013A59;
 }
 
 .service-entry h2 span {
-	font-weight: 400;
-	font-family: var(--accent-font);
-	background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
-	background-size: 200% auto;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	transition: all 0.3s ease-in-out;
+	font-weight: 700;
+	color: #013A59;
+	background: none;
+	-webkit-text-fill-color: #013A59;
 }
 
 .service-entry h2:hover span {
@@ -6117,7 +6117,8 @@ header.main-header .header-sticky.active {
 		border-radius: 0;
 	}
 
-	.page-header-box h1 {
+	.page-header-box h1,
+	.page-header-box h2 {
 		font-size: 48px;
 		margin-bottom: 10px;
 	}
@@ -6786,7 +6787,8 @@ header.main-header .header-sticky.active {
 		padding: 15px 0;
 	}
 
-	.page-header-box h1 {
+	.page-header-box h1,
+	.page-header-box h2 {
 		font-size: 28px;
 	}
 

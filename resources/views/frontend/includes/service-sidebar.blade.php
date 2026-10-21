@@ -27,7 +27,16 @@
                         Management</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('hospital-business-setup')}}">Hospital
                         Business Setup</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('clinic-setup')}}">Clinic Setup</a>
+                <li class="nav-item"><a class="nav-link" href="{{route('clinic-setup')}}">Clinic Setup</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('accreditation-and-compliance-management')}}">Accreditation &amp; Compliance Management</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{route('quality-improvement-steeep-scope')}}">Quality Improvement (STEEEP &amp; SCOPE)</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{route('digital-health-it-infrastructure')}}">Digital Health &amp; IT Infrastructure</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{route('mergers-and-acquisitions')}}">Mergers &amp; Acquisitions (M&amp;A)</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{route('revenue-cycle-management-and-profitability-growth')}}">Revenue Cycle Management</a>
                 </li>
             </ul>
         </div>

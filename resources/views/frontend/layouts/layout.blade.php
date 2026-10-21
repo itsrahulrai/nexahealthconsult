@@ -44,6 +44,8 @@
     <link rel="stylesheet" href="{{ static_asset('assets/css/mousecursor.css') }}">
     <!-- Main Custom Css -->
     <link href="{{ static_asset('assets/css/custom.css') }}" rel="stylesheet" media="screen">
+    <!-- Service Specific Css -->
+    <link href="{{ static_asset('assets/css/service.css') }}" rel="stylesheet" media="screen">
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -54,10 +56,6 @@
     <!-- End Google Tag Manager -->
 
     @stack('style')
-    
-    
-
-    <style>.service-entry .service-title{font-size:48px;font-weight:500;letter-spacing:-0.01em;margin-bottom:20px;line-height:1.1em;color:var(--primary-color)}.service-entry .service-title span{font-weight:400;font-family:var(--accent-font);background:linear-gradient(to right,var(--accent-color) 0%,var(--accent-secondary-color) 50%,var(--accent-color) 100%);background-size:200% auto;background-clip:text;-webkit-text-fill-color:transparent;transition:all .3s ease-in-out}.service-entry .service-title:hover span{background-position:right center}(max-width:991px){.service-entry .service-title{font-size:34px}}</style>
 </head>
 
 <body>

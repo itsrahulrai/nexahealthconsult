@@ -1,0 +1,1133 @@
+/**
+ * Nexa Health Consult - Service Pages Stylesheet
+ * File: public/assets/css/service.css
+ */
+
+/* ==========================================================================
+   1. Typography & Headings (All solid #013A59, no gradient, uniformly bold)
+   ========================================================================== */
+.service-entry h1,
+.service-entry h2,
+.service-entry h3,
+.service-entry h4,
+.service-entry .service-title,
+.service-entry h1 span,
+.service-entry h2 span,
+.service-entry h3 span,
+.service-entry h4 span,
+.service-entry .service-title span {
+    color: #013A59 !important;
+    -webkit-text-fill-color: #013A59 !important;
+    background: none !important;
+    font-weight: 700 !important;
+    font-family: inherit !important;
+}
+
+.service-entry h1.service-title,
+.service-entry .service-title {
+    font-size: 38px !important;
+    font-weight: 700 !important;
+    line-height: 1.25em !important;
+    color: #013A59 !important;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px !important;
+}
+
+.service-entry .service-subtitle {
+    color: #013A59;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.service-entry h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #013A59;
+    margin-bottom: 14px;
+    line-height: 1.35;
+}
+
+.service-entry h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #013A59;
+    margin-bottom: 12px;
+    line-height: 1.35;
+}
+
+/* ==========================================================================
+   2. Sections, Subgroups & Spacing
+   ========================================================================== */
+.service-section {
+    margin-top: 45px;
+}
+
+.service-lead-text {
+    font-weight: 600;
+    color: #013A59;
+    font-size: 17.5px;
+    margin-top: 15px;
+}
+
+.service-subgroup {
+    margin-top: 25px;
+}
+
+.service-subgroup + .service-subgroup {
+    margin-top: 40px;
+}
+
+.service-subgroup > p {
+    margin-bottom: 15px;
+}
+
+.service-deliver-desc {
+    margin-top: 25px;
+}
+
+.service-testing-item-list {
+    margin-top: 18px;
+}
+
+.service-testing-item-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 24px;
+}
+
+.service-testing-item-list ul li {
+    position: relative;
+    padding-left: 28px;
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.55;
+    margin-bottom: 0;
+}
+
+.service-testing-item-list ul li::before {
+    content: "\f058";
+    font-family: "Font Awesome 7 Free", "FontAwesome", sans-serif;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--accent-color, #116DAD);
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   3. Callout & Quote Boxes
+   ========================================================================== */
+.service-quote-box {
+    margin: 25px 0;
+    padding: 20px 26px;
+    border: 1px solid rgba(1, 58, 89, 0.08);
+    border-left: 4px solid var(--accent-color, #116DAD);
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+.service-quote-box p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #013A59;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.55;
+}
+
+.service-commitment-box {
+    margin-top: 35px;
+    padding: 26px 30px;
+    border: 1px solid rgba(1, 58, 89, 0.08);
+    border-left: 4px solid var(--accent-color, #116DAD);
+    background: #f8fafc;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(1, 58, 89, 0.03);
+}
+
+.service-commitment-box .service-commitment-title,
+.service-commitment-title {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #013A59 !important;
+    margin: 0 0 10px 0 !important;
+    letter-spacing: -0.01em;
+    line-height: 1.35 !important;
+}
+
+.service-commitment-box .service-commitment-lead,
+.service-commitment-lead {
+    font-size: 16.5px !important;
+    font-weight: 600 !important;
+    color: var(--accent-color, #116DAD) !important;
+    margin: 0 0 12px 0 !important;
+    line-height: 1.5 !important;
+}
+
+.service-commitment-box .service-commitment-desc,
+.service-commitment-desc {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    color: #475569 !important;
+    margin: 0 !important;
+    line-height: 1.7 !important;
+}
+
+.service-commitment-box .service-commitment-desc strong,
+.service-commitment-desc strong {
+    font-weight: 600 !important;
+    color: #013A59 !important;
+}
+
+/* Dedicated Highlight Callout (e.g. Closing Punchlines) */
+.service-highlight-callout {
+    margin-top: 35px;
+    padding: 22px 28px;
+    border: 1px solid rgba(1, 58, 89, 0.08);
+    border-left: 4px solid var(--accent-color, #116DAD);
+    background: #f8fafc;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(1, 58, 89, 0.03);
+}
+
+.service-highlight-callout p {
+    font-size: 16.5px;
+    font-weight: 400 !important;
+    color: #013A59;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.service-highlight-callout p + p {
+    margin-top: 8px;
+}
+
+.service-highlight-callout .highlight-accent,
+.highlight-accent {
+    color: #475569;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.service-highlight-callout .highlight-secondary,
+.highlight-secondary {
+    color: var(--accent-color, #116DAD);
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   4. Signature Process Grid (Step Cards 01, 02, etc.)
+   ========================================================================== */
+.signature-process-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.signature-process-card {
+    background: #ffffff;
+    border: 1px solid rgba(1, 58, 89, 0.1);
+    border-radius: 14px;
+    padding: 24px 22px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 18px rgba(1, 58, 89, 0.04);
+    position: relative;
+}
+
+.signature-process-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(17, 109, 173, 0.4);
+    box-shadow: 0 12px 28px rgba(1, 58, 89, 0.08);
+}
+
+.signature-process-card.span-full {
+    grid-column: 1 / -1;
+}
+
+.signature-step-num {
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--primary-color, #013A59) 0%, var(--accent-color, #116DAD) 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(1, 58, 89, 0.2);
+    transition: all 0.3s ease;
+}
+
+.signature-process-card:hover .signature-step-num {
+    background: linear-gradient(135deg, var(--accent-color, #116DAD) 0%, var(--accent-secondary-color, #13E0B9) 100%);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(19, 224, 185, 0.3);
+}
+
+.signature-step-body {
+    flex: 1;
+}
+
+.signature-step-body h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #013A59 !important;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.signature-step-body p {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--text-color, #2c2c2c);
+    margin: 0;
+}
+
+/* ==========================================================================
+   5. CTA Box
+   ========================================================================== */
+.service-entry-cta {
+    margin-top: 45px;
+    padding: 35px 30px;
+    background: linear-gradient(135deg, rgba(1, 58, 89, 0.05) 0%, rgba(0, 180, 216, 0.08) 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(1, 58, 89, 0.1);
+}
+
+.service-entry-cta h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #013A59;
+    margin-bottom: 12px;
+}
+
+.service-cta-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent-color, #116DAD);
+    margin-bottom: 10px;
+}
+
+.service-cta-desc {
+    margin-bottom: 16px;
+    line-height: 1.65;
+    color: var(--text-color, #2c2c2c);
+}
+
+.service-cta-lead {
+    font-size: 15.5px;
+    font-weight: 600;
+    color: #013A59;
+    margin-bottom: 22px;
+    line-height: 1.55;
+}
+
+.service-entry-cta .btn-default {
+    display: inline-block;
+}
+
+/* ==========================================================================
+   6. Service Comparison & Data Table Component
+   ========================================================================== */
+.service-table-wrapper {
+    margin: 28px 0 24px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid rgba(1, 58, 89, 0.14);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(1, 58, 89, 0.05);
+    background: #ffffff;
+}
+
+.service-custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0;
+    text-align: left;
+    min-width: 560px;
+}
+
+.service-custom-table thead tr {
+    background: #013A59;
+}
+
+.service-custom-table thead th {
+    padding: 16px 24px;
+    font-weight: 700 !important;
+    font-size: 15.5px;
+    letter-spacing: 0.03em;
+    border: none;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    line-height: 1.35;
+}
+
+.service-custom-table thead th:first-child {
+    width: 28%;
+    border-top-left-radius: 11px;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.service-custom-table thead th:last-child {
+    border-top-right-radius: 11px;
+}
+
+.service-custom-table tbody tr {
+    border-top: 1px solid rgba(1, 58, 89, 0.08);
+    transition: background-color 0.2s ease;
+}
+
+.service-custom-table tbody tr:hover {
+    background-color: rgba(17, 109, 173, 0.04);
+}
+
+.service-custom-table tbody td {
+    padding: 18px 24px;
+    vertical-align: middle;
+    border-top: 1px solid rgba(1, 58, 89, 0.08);
+}
+
+/* Facility Type Column */
+.service-custom-table tbody td.facility-type-cell,
+.service-custom-table tbody td:first-child {
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: #013A59 !important;
+    background: #f8fafc;
+    border-right: 1px solid rgba(1, 58, 89, 0.08);
+    white-space: nowrap;
+}
+
+.service-custom-table tbody tr:hover td.facility-type-cell,
+.service-custom-table tbody tr:hover td:first-child {
+    background: #f1f5f9;
+    color: #116DAD !important;
+}
+
+/* Design Focus Column - Solid, clear, comfortable weight (NOT thin!) */
+.service-custom-table tbody td.facility-focus-cell,
+.service-custom-table tbody td:last-child {
+    font-size: 15.5px;
+    font-weight: 500 !important;
+    color: #013A59 !important;
+    line-height: 1.65;
+}
+
+/* ==========================================================================
+   8. Facility Stack / Feature Cards Component
+   ========================================================================== */
+.service-stack-list {
+    margin: 24px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.service-stack-item {
+    background: #ffffff;
+    border: 1px solid rgba(1, 58, 89, 0.1);
+    border-left: 4px solid var(--accent-color, #116DAD);
+    border-radius: 10px;
+    padding: 18px 22px;
+    box-shadow: 0 4px 14px rgba(1, 58, 89, 0.03);
+    transition: all 0.25s ease;
+}
+
+.service-stack-item:hover {
+    transform: translateX(4px);
+    border-color: rgba(17, 109, 173, 0.35);
+    box-shadow: 0 8px 22px rgba(1, 58, 89, 0.07);
+}
+
+.service-stack-item h3,
+.service-stack-item h4 {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #013A59 !important;
+    margin: 0 0 6px 0 !important;
+    line-height: 1.35 !important;
+}
+
+.service-stack-item p {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ==========================================================================
+   9. Facility Strategy Grid (Equipment Planning Showcase)
+   ========================================================================== */
+.facility-strategy-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 26px 0 22px 0;
+}
+
+.facility-strategy-card {
+    background: #ffffff;
+    border: 1px solid rgba(1, 58, 89, 0.1);
+    border-top: 3px solid var(--accent-color, #116DAD);
+    border-radius: 12px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(1, 58, 89, 0.04);
+    position: relative;
+}
+
+.facility-strategy-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(17, 109, 173, 0.35);
+    border-top-color: #013A59;
+    box-shadow: 0 10px 26px rgba(1, 58, 89, 0.08);
+}
+
+.facility-strategy-card.span-full {
+    grid-column: 1 / -1;
+}
+
+.facility-strategy-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.facility-strategy-icon {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    border-radius: 10px;
+    background: rgba(17, 109, 173, 0.1);
+    color: var(--accent-color, #116DAD);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    transition: all 0.3s ease;
+}
+
+.facility-strategy-card:hover .facility-strategy-icon {
+    background: var(--accent-color, #116DAD);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.facility-strategy-header h3,
+.facility-strategy-header h4 {
+    font-size: 17.5px !important;
+    font-weight: 700 !important;
+    color: #013A59 !important;
+    margin: 0 !important;
+    line-height: 1.35 !important;
+}
+
+.facility-strategy-desc {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ==========================================================================
+   10. Regulatory & Standards Guidance Notes
+   ========================================================================== */
+.service-standards-note,
+.service-regulatory-note {
+    font-size: 14.5px;
+    color: #475569;
+    background: #f8fafc;
+    border: 1px solid rgba(1, 58, 89, 0.08);
+    border-left: 3px solid var(--accent-color, #116DAD);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-top: 22px;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   11. STEEEP Aims Grid & Cards
+   ========================================================================== */
+.page-header.quality-improvement-header,
+.page-header.digital-health-header,
+.page-header.rcm-header {
+    background-image: url('../images/bg/about-us.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center -97.9063px;
+}
+
+.steeep-aims-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.steeep-aim-card {
+    background: #ffffff;
+    border: 1px solid rgba(1, 58, 89, 0.1);
+    border-radius: 12px;
+    padding: 22px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(1, 58, 89, 0.03);
+}
+
+.steeep-aim-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(17, 109, 173, 0.35);
+    box-shadow: 0 8px 24px rgba(1, 58, 89, 0.08);
+}
+
+.steeep-letter-badge {
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    background: linear-gradient(135deg, #013A59 0%, #116DAD 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 4px 12px rgba(1, 58, 89, 0.15);
+}
+
+.steeep-aim-content {
+    flex: 1;
+}
+
+.steeep-aim-content h3 {
+    font-size: 17.5px !important;
+    font-weight: 700 !important;
+    color: #013A59 !important;
+    margin: 0 0 6px 0 !important;
+    line-height: 1.35 !important;
+}
+
+.steeep-aim-question {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.service-process-summary {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.65;
+    margin-top: 20px;
+}
+
+/* ==========================================================================
+   12. Advisory Feature Grid & Cards
+   ========================================================================== */
+.advisory-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.advisory-feature-card {
+    background: #ffffff;
+    border: 1px solid rgba(1, 58, 89, 0.1);
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(1, 58, 89, 0.03);
+}
+
+.advisory-feature-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(17, 109, 173, 0.35);
+    box-shadow: 0 6px 20px rgba(1, 58, 89, 0.08);
+}
+
+.advisory-feature-card.span-full {
+    grid-column: 1 / -1;
+}
+
+.advisory-feature-icon {
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    background: rgba(17, 109, 173, 0.1);
+    color: var(--accent-color, #116DAD);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 2px;
+}
+
+.advisory-feature-card:hover .advisory-feature-icon {
+    background: var(--accent-color, #116DAD);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.advisory-feature-text {
+    flex: 1;
+}
+
+.advisory-feature-text p {
+    font-size: 14.5px;
+    color: #334155;
+    line-height: 1.55;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* ==========================================================================
+   13. Healthcare M&A Spectrum Architecture Cards
+   ========================================================================== */
+.page-header.ma-header {
+    background-image: url('../images/bg/about-us.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center -97.9063px;
+}
+
+.ma-spectrum-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 26px;
+}
+
+.ma-spectrum-card {
+    background: #ffffff;
+    border: 1px solid rgba(1, 58, 89, 0.12);
+    border-radius: 12px;
+    padding: 24px 26px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(1, 58, 89, 0.04);
+}
+
+.ma-spectrum-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(17, 109, 173, 0.35);
+    box-shadow: 0 10px 28px rgba(1, 58, 89, 0.08);
+}
+
+.ma-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(1, 58, 89, 0.08);
+}
+
+.ma-card-title-group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.ma-step-badge {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    background: linear-gradient(135deg, #013A59 0%, #116DAD 100%);
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ma-card-title-group h3 {
+    font-size: 18.5px !important;
+    font-weight: 700 !important;
+    color: #013A59 !important;
+    margin: 0 !important;
+    line-height: 1.35 !important;
+}
+
+.ma-model-tag {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-color, #116DAD);
+    background: rgba(17, 109, 173, 0.08);
+    border: 1px solid rgba(17, 109, 173, 0.2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.ma-points-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.ma-point-block {
+    border-radius: 8px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    font-size: 14.5px;
+    line-height: 1.6;
+}
+
+.ma-point-block p {
+    margin: 0;
+    color: #334155;
+    font-size: 14.5px;
+    line-height: 1.6;
+}
+
+.ma-point-label {
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+/* Flaw Block (Warning / Issue) */
+.ma-point-block.flaw-block {
+    background: #fff8f8;
+    border-left: 3px solid #dc2626;
+}
+
+.ma-point-block.flaw-block .ma-point-icon {
+    color: #dc2626;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.ma-point-block.flaw-block .ma-point-label {
+    color: #991b1b;
+}
+
+/* Innovation Block (Nexa Approach) */
+.ma-point-block.innovation-block {
+    background: #f0fdf4;
+    border-left: 3px solid #16a34a;
+}
+
+.ma-point-block.innovation-block .ma-point-icon {
+    color: #16a34a;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.ma-point-block.innovation-block .ma-point-label {
+    color: #166534;
+}
+
+/* Value Add Block (Tangible Results) */
+.ma-point-block.value-block {
+    background: #f0f7fc;
+    border-left: 3px solid #116DAD;
+}
+
+.ma-point-block.value-block .ma-point-icon {
+    color: #116DAD;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.ma-point-block.value-block .ma-point-label {
+    color: #013A59;
+}
+
+/* ==========================================================================
+   6. Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 991px) {
+    .service-entry h1.service-title,
+    .service-entry .service-title {
+        font-size: 32px !important;
+        line-height: 1.28em !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-entry h1.service-title,
+    .service-entry .service-title {
+        font-size: 26px !important;
+        line-height: 1.3em !important;
+    }
+    .service-entry .service-subtitle {
+        font-size: 19px;
+    }
+    .service-section {
+        margin-top: 35px;
+    }
+    .signature-process-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .signature-process-card {
+        padding: 18px 16px;
+        gap: 15px;
+    }
+    .signature-step-num {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .signature-step-body h3 {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .signature-step-body p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+    .service-custom-table {
+        min-width: 500px;
+    }
+    .service-custom-table thead th,
+    .service-custom-table tbody td {
+        padding: 13px 16px;
+    }
+    .service-custom-table tbody td.facility-type-cell,
+    .service-custom-table tbody td:first-child {
+        font-size: 15px;
+    }
+    .service-custom-table tbody td.facility-focus-cell,
+    .service-custom-table tbody td:last-child {
+        font-size: 14.5px;
+        line-height: 1.55;
+    }
+    .service-entry-cta {
+        padding: 26px 20px;
+    }
+    .service-stack-item {
+        padding: 15px 16px;
+    }
+    .service-stack-item h3,
+    .service-stack-item h4 {
+        font-size: 16px !important;
+    }
+    .service-stack-item p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+    .facility-strategy-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .facility-strategy-card {
+        padding: 18px 16px;
+        gap: 10px;
+    }
+    .facility-strategy-icon {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 17px;
+    }
+    .facility-strategy-header h3,
+    .facility-strategy-header h4 {
+        font-size: 16.5px !important;
+    }
+    .facility-strategy-desc {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+    .steeep-aims-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+    .steeep-aim-card {
+        padding: 16px;
+        gap: 14px;
+    }
+    .steeep-letter-badge {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    .steeep-aim-content h3 {
+        font-size: 16.5px !important;
+    }
+    .steeep-aim-question {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+    .service-testing-item-list ul {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .advisory-feature-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .advisory-feature-card {
+        padding: 14px 16px;
+        gap: 12px;
+    }
+    .advisory-feature-icon {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        font-size: 15px;
+    }
+    .advisory-feature-text p {
+        font-size: 14px;
+    }
+    .ma-spectrum-card {
+        padding: 18px 16px;
+    }
+    .ma-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .ma-card-title-group h3 {
+        font-size: 16.5px !important;
+    }
+    .ma-point-block {
+        padding: 12px 14px;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .ma-point-block p {
+        font-size: 14px;
+    }
+}
+
+/* ==========================================================================
+   14. Services Mega-Menu Navigation Dropdown
+   ========================================================================== */
+@media (min-width: 992px) {
+    .main-menu ul li.submenu.services-mega-menu {
+        position: relative;
+    }
+
+    .main-menu ul li.submenu.services-mega-menu > ul,
+    .main-menu ul li.submenu.services-mega-menu ul.services-dropdown {
+        width: 620px !important;
+        left: -130px !important;
+        right: auto !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 8px !important;
+        row-gap: 2px !important;
+        padding: 12px 14px !important;
+        max-height: calc(100vh - 110px) !important;
+        overflow-y: auto !important;
+        box-shadow: 0 16px 45px rgba(1, 58, 89, 0.16) !important;
+        border: 1px solid rgba(1, 58, 89, 0.1) !important;
+        border-radius: 12px !important;
+        background: #ffffff !important;
+    }
+
+    /* Scrollbar for Services dropdown */
+    .main-menu ul li.submenu.services-mega-menu ul::-webkit-scrollbar {
+        width: 6px;
+    }
+    .main-menu ul li.submenu.services-mega-menu ul::-webkit-scrollbar-track {
+        background: #f1f5f9;
+        border-radius: 4px;
+    }
+    .main-menu ul li.submenu.services-mega-menu ul::-webkit-scrollbar-thumb {
+        background: rgba(1, 58, 89, 0.22);
+        border-radius: 4px;
+    }
+    .main-menu ul li.submenu.services-mega-menu ul::-webkit-scrollbar-thumb:hover {
+        background: var(--accent-color, #116DAD);
+    }
+
+    .main-menu ul li.submenu.services-mega-menu ul li {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    header.main-header.main-header-prime .main-menu ul li.submenu.services-mega-menu ul li a {
+        font-size: 13.5px !important;
+        font-weight: 500 !important;
+        line-height: 1.35 !important;
+        color: #013a59 !important;
+        padding: 8px 12px !important;
+        border-radius: 6px !important;
+        display: block !important;
+        transition: all 0.2s ease-in-out !important;
+        white-space: normal !important;
+        border-bottom: 1px solid rgba(1, 58, 89, 0.04);
+    }
+
+    header.main-header.main-header-prime .main-menu ul li.submenu.services-mega-menu ul li a:hover,
+    header.main-header.main-header-prime .main-menu ul li.submenu.services-mega-menu ul li a:focus {
+        background: rgba(17, 109, 173, 0.08) !important;
+        color: var(--accent-color, #116DAD) !important;
+        padding-left: 16px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main-menu ul li.submenu.services-mega-menu > ul,
+    .main-menu ul li.submenu.services-mega-menu ul.services-dropdown {
+        width: 660px !important;
+        left: -80px !important;
+        column-gap: 12px !important;
+        padding: 14px 18px !important;
+    }
+
+    header.main-header.main-header-prime .main-menu ul li.submenu.services-mega-menu ul li a {
+        font-size: 14px !important;
+        padding: 9px 14px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .slicknav_menu {
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+    .slicknav_nav {
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+    .slicknav_nav .slicknav_row,
+    .slicknav_nav li a {
+        font-size: 15px;
+    }
+    .slicknav_menu ul ul li a {
+        padding: 7px 20px 7px 28px;
+        font-size: 14px;
+    }
+}
+

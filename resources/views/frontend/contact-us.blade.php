@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="contact-info-item-content">
                                     <p>E-mail Address:</p>
-                                    <h3><a href="mailto:drsanjeevkakra11@icloud.com">drsanjeevkakra11@icloud.com</a></h3>
+                                    <h3><a href="mailto:drsanjeevkalra11@icloud.com">drsanjeevkalra11@icloud.com</a></h3>
                                 </div>
                             </div>
                             <!-- Contact Info Item End -->

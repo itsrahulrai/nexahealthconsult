@@ -14,9 +14,9 @@
         </a>
 
         <!-- Email -->
-        <a href="mailto:drsanjeevkakra11@icloud.com" class="contact-item email">
+        <a href="mailto:drsanjeevkalra11@icloud.com" class="contact-item email">
             <i class="fas fa-envelope"></i>
-            <span>drsanjeevkakra11@icloud.com</span>
+            <span>drsanjeevkalra11@icloud.com</span>
         </a>
 
         <!-- Address -->
@@ -81,8 +81,8 @@ Pradesh 201301</span>
                                     <li class="nav-item"><a class="nav-link" href="{{route('team')}}">Our Team</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item submenu"><a class="nav-link" href="#">Our Services</a>
-                                <ul>
+                            <li class="nav-item submenu services-mega-menu"><a class="nav-link" href="#">Our Services</a>
+                                <ul class="services-dropdown">
                                     <li class="nav-item"><a class="nav-link"
                                             href="{{route('strategic-healthcare-consultancy')}}">Strategic Healthcare
                                             Consultancy</a></li>
@@ -113,6 +113,11 @@ Pradesh 201301</span>
                                     <li class="nav-item"><a class="nav-link"
                                             href="{{route('hospital-business-setup')}}">Hospital
                                             Business Setup</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{route('accreditation-and-compliance-management')}}">Accreditation &amp; Compliance Management</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{route('quality-improvement-steeep-scope')}}">Quality Improvement (STEEEP &amp; SCOPE)</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{route('digital-health-it-infrastructure')}}">Digital Health &amp; IT Infrastructure</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{route('mergers-and-acquisitions')}}">Mergers &amp; Acquisitions (M&amp;A)</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{route('revenue-cycle-management-and-profitability-growth')}}">Revenue Cycle Management</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{route('clinic-setup')}}">Clinic
                                             Setup</a>
                                     </li>
@@ -141,4 +146,6 @@ Pradesh 201301</span>
         </nav>
         <div class="responsive-menu"></div>
     </div>
+</header>
+
 </header>

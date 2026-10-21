@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # -----------------------------------
+    # 1. Force HTTPS + non-WWW only on live domain
+    # -----------------------------------
+    RewriteCond %{HTTP_HOST} !^localhost$ [NC]
+    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1$ 
+    RewriteCond %{HTTPS} !=on [OR]
+    RewriteCond %{HTTP_HOST} ^www\.nexahealthconsult\.com$ [NC]
+    RewriteRule ^ https://nexahealthconsult.com%{REQUEST_URI} [R=301,L]
+
+    # -----------------------------------
+    # 2. Remove trailing slash (except directories)
+    # -----------------------------------
+    RewriteCond %{HTTP_HOST} !^localhost$ [NC]
+    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1$
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} ^(.+)/$
+    RewriteRule ^(.+)/$ https://nexahealthconsult.com/$1 [R=301,L]
+
+    # -----------------------------------
+    # 3. WordPress / PHP routing
+    # -----------------------------------
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# -----------------------------------
+# 4. Block hidden files
+# -----------------------------------
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>

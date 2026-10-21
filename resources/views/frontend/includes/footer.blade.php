@@ -56,7 +56,7 @@
                         <ul>
                             <li><img src="{{ static_asset('assets/images/icon-phone-accent-secondary.svg') }}" alt=""><a href="tel:9811733441">+91 98117 33441</a></li>
                             <li><img src="{{ static_asset('assets/images/icon-phone-accent-secondary.svg') }}" alt=""><a href="tel:+1-641-206-1111">USA +1-641-206-1111</a></li>
-                            <li><img src="{{ static_asset('assets/images/icon-mail-accent-secondary.svg') }}" alt=""><a href="mailto:drsanjeevkakra11@icloud.com">drsanjeevkakra11@icloud.com</a></li>
+                            <li><img src="{{ static_asset('assets/images/icon-mail-accent-secondary.svg') }}" alt=""><a href="mailto:drsanjeevkalra11@icloud.com">drsanjeevkalra11@icloud.com</a></li>
                             <li><img src="{{ static_asset('assets/images/icon-location-accent-secondary.svg') }}" alt="">C-462, opp. C Block, C Block, Mkt, Sector 19, Noida, Uttar Pradesh 201301</li>
                         </ul>
                     </div>

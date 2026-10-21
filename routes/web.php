@@ -54,6 +54,11 @@ Route::view('/healthcare-investment-consulting', 'frontend.healthcare-investment
 Route::view('/healthcare-performance-management', 'frontend.healthcare-performance-management')->name('healthcare-performance-management');
 Route::view('/hospital-business-setup', 'frontend.hospital-business-setup')->name('hospital-business-setup');
 Route::view('/clinic-setup', 'frontend.clinic-setup')->name('clinic-setup');
+Route::view('/accreditation-and-compliance-management', 'frontend.accreditation-and-compliance-management')->name('accreditation-and-compliance-management');
+Route::view('/quality-improvement-steeep-scope', 'frontend.quality-improvement-steeep-scope')->name('quality-improvement-steeep-scope');
+Route::view('/digital-health-it-infrastructure', 'frontend.digital-health-it-infrastructure')->name('digital-health-it-infrastructure');
+Route::view('/mergers-and-acquisitions', 'frontend.mergers-and-acquisitions')->name('mergers-and-acquisitions');
+Route::view('/revenue-cycle-management-and-profitability-growth', 'frontend.revenue-cycle-management-and-profitability-growth')->name('revenue-cycle-management-and-profitability-growth');
 Route::view('/raghav-gupta', 'frontend.raghav-gupta')->name('raghav-gupta');
 Route::view('/shubham-garg', 'frontend.shubham-garg')->name('shubham-garg');
 Route::view('/nitya-ahuja', 'frontend.nitya-ahuja')->name('nitya-ahuja');
