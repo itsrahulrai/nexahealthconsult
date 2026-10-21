@@ -67,21 +67,90 @@
                             <h3 class="wow fadeInUp">What We Deliver</h3>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We provide strategic support across the complete healthcare value chain:</p>
 
-                            <!-- Service Deliver Item List Start -->
-                            <div class="service-testing-item-list">
-                                <ul>
-                                    <li>Healthcare business strategy, service positioning, and growth planning</li>
-                                    <li>Market research, demand assessment, competition analysis, and feasibility studies</li>
-                                    <li>Hospital, clinic, diagnostic centre, and medical-college project planning</li>
-                                    <li>Clinical and operational workflow redesign</li>
-                                    <li>Patient experience, patient safety, and quality-management systems</li>
-                                    <li>NABH, JCI, licensing, and regulatory-readiness support</li>
-                                    <li>SOPs, KPIs, performance dashboards, and governance frameworks</li>
-                                    <li>Organizational development, leadership alignment, and team capability building</li>
-                                    <li>Expansion, transformation, and sustainable business-development strategies</li>
-                                </ul>
+                            <!-- Service Deliver Feature Grid Start -->
+                            <div class="advisory-feature-grid wow fadeInUp" data-wow-delay="0.25s">
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Healthcare business strategy, service positioning, and growth planning</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Market research, demand assessment, competition analysis, and feasibility studies</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Hospital, clinic, diagnostic centre, and medical-college project planning</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Clinical and operational workflow redesign</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Patient experience, patient safety, and quality-management systems</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>NABH, JCI, licensing, and regulatory-readiness support</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>SOPs, KPIs, performance dashboards, and governance frameworks</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Organizational development, leadership alignment, and team capability building</p>
+                                    </div>
+                                </div>
+
+                                <div class="advisory-feature-card span-full">
+                                    <div class="advisory-feature-icon">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                    <div class="advisory-feature-text">
+                                        <p>Expansion, transformation, and sustainable business-development strategies</p>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- Service Deliver Item List End -->
+                            <!-- Service Deliver Feature Grid End -->
 
                             <p class="service-deliver-desc wow fadeInUp" data-wow-delay="0.3s">Whether you are launching a new facility, improving an established organization, or preparing for the next stage of growth, we create solutions shaped around your unique clinical, market, and financial realities.</p>
                         </div>
